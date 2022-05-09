@@ -18,7 +18,7 @@ public class Principal_Circulo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hola que tal");
+        System.out.println("Hola que tal buenos dias ");
 
             Circulito circulo = new Circulito(837, 43, 2.5);
 
