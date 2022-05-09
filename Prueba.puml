@@ -1,0 +1,18 @@
+@startuml
+annotation java.lang.Override
+class circulos.Circulo
+class circulos.PruebaCirculo
+class circulos.Triangulo
+class ejercicios_x.Metro
+class java.text.DecimalFormat
+class javax.swing.JOptionPane
+class mtb.Bicicleta
+class mtb.MTB
+interface mtb.NewInterface
+circulos.Circulo ..> java.lang.Override
+circulos.PruebaCirculo ..> java.text.DecimalFormat
+circulos.PruebaCirculo ..> javax.swing.JOptionPane
+mtb.MTB ..> java.lang.Override
+mtb.MTB --|> mtb.Bicicleta
+mtb.MTB --|> mtb.NewInterface
+@enduml
